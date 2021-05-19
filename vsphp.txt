@@ -1,6 +1,10 @@
 access modifiers? private, public and protected
 can't specify types even if you wanted to?
 
+like
+    everything is an object
+    sets to remove duplicates
+
 fucking stupid shit
     boolean first letter needs to be uppercase
         x = True

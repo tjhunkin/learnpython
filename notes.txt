@@ -130,7 +130,7 @@ type(x)
         https://www.w3schools.com/python/ref_string_format.asp
 
 ~ arrays / collections
-    List is a collection which is ordered and changeable. Allows duplicate members.
-    Tuple is a collection which is ordered and unchangeable. Allows duplicate members.
-    Set is a collection which is unordered and unindexed. No duplicate members.
+    List is a collection which is ordered and changeable. Allows duplicate members. [] square brackets
+    Tuple is a collection which is ordered and unchangeable. Allows duplicate members. () round brackets
+    Set is a collection which is unordered and unindexed. No duplicate members. {} curly brackets
     Dictionary is a collection which is ordered* and changeable. No duplicate members.

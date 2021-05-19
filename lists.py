@@ -1,3 +1,5 @@
+# List is a collection which is ordered and changeable. Allows duplicate members.
+
 # methods
 # append()	Adds an element at the end of the list
 # clear()	Removes all the elements from the list
@@ -217,3 +219,7 @@ list2 = [1, 2, 3]
 
 list1.extend(list2)
 print(list1)
+
+# multiply
+list1 = ["a", "b", "c"]
+print(list1 * 2)
