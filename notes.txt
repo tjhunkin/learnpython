@@ -133,4 +133,4 @@ type(x)
     List is a collection which is ordered and changeable. Allows duplicate members. [] square brackets
     Tuple is a collection which is ordered and unchangeable. Allows duplicate members. () round brackets
     Set is a collection which is unordered and unindexed. No duplicate members. {} curly brackets
-    Dictionary is a collection which is ordered* and changeable. No duplicate members.
+    Dictionary is a collection which is ordered* and changeable. No duplicate members. {} curly brackets (php associative array, json like)
