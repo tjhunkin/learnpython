@@ -1,0 +1,136 @@
+~ frameworks
+    larger projects
+        https://www.djangoproject.com/
+        https://www.turbogears.org/index.html
+        https://www.zope.org/
+
+    smaller projects
+        https://flask.palletsprojects.com/en/2.0.x/
+        https://github.com/MasoniteFramework/masonite (Laravel-like)
+        https://geekflare.com/best-python-frameworks/
+
+~ style guide
+    https://www.python.org/dev/peps/pep-0008/#introduction
+    https://www.flake8rules.com/
+
+~ cmd
+    python
+    exit()
+
+~ version
+    python --version
+
+~ rules
+    indentation needs to be the same in a code block
+        https://www.flake8rules.com/rules/E111.html
+
+    file needs to end with an empty line
+        https://www.flake8rules.com/rules/W292.html
+
+    comments need a space before the text
+        # This is a comment.
+        https://www.flake8rules.com/rules/E265.html
+        at least two spaces for an inline comment
+
+     two lines before and after a class or function name
+        https://www.flake8rules.com/rules/E302.html
+
+~ casting
+    x = str(3)    # x will be '3'
+    y = int(3)    # y will be 3
+    z = float(3)  # z will be 3.0
+
+~ get type
+type(x)
+
+~ legal variable names
+    myvar = "John"
+    my_var = "John"
+    _my_var = "John"
+    myVar = "John"
+    MYVAR = "John"
+    myvar2 = "John"
+
+~ one value, multiple variables
+    x = y = z = "Orange"
+    print(x)
+    print(y)
+    print(z)
+
+~ multiple variables, multiple values
+    x, y, z = "Orange", "Banana", "Cherry"
+    print(x)
+    print(y)
+    print(z)
+
+~ unpacking variables
+    fruits = ["apple", "banana", "cherry"]
+    x, y, z = fruits
+    print(x)
+    print(y)
+    print(z)
+
+~ data types
+    Text Type:	str
+    Numeric Types:	int, float, complex
+    Sequence Types:	list, tuple, range
+    Mapping Type:	dict
+    Set Types:	set, frozenset
+    Boolean Type:	bool
+    Binary Types:	bytes, bytearray, memoryview
+
+    x = "Hello World"	str
+    x = 20	int
+    x = 20.5	float
+    x = 1j	complex
+    x = ["apple", "banana", "cherry"]	list
+    x = ("apple", "banana", "cherry")	tuple
+    x = range(6)	range
+    x = {"name" : "John", "age" : 36}	dict
+    x = {"apple", "banana", "cherry"}	set
+    x = frozenset({"apple", "banana", "cherry"})	frozenset
+    x = True	bool
+    x = b"Hello"	bytes
+    x = bytearray(5)	bytearray
+    x = memoryview(bytes(5))	memoryview
+
+~ random number
+    import random
+
+    print(random.randrange(1, 10))
+
+~ multiline strings
+    a = """Lorem ipsum dolor sit amet,
+    consectetur adipiscing elit,
+    sed do eiusmod tempor incididunt
+    ut labore et dolore magna aliqua."""
+    print(a)
+
+    a = '''Lorem ipsum dolor sit amet,
+    consectetur adipiscing elit,
+    sed do eiusmod tempor incididunt
+    ut labore et dolore magna aliqua.'''
+    print(a)
+
+~ string stuff
+    a = "Hello, World!"
+    print(a[1])
+
+    for x in "banana":
+        print(x)
+
+    a = "Hello, World!"
+    print(len(a))
+
+    txt = "The best things in life are free!"
+    if "free" in txt:
+      print("Yes, 'free' is present.")
+
+    formatting
+        https://www.w3schools.com/python/ref_string_format.asp
+
+~ arrays / collections
+    List is a collection which is ordered and changeable. Allows duplicate members.
+    Tuple is a collection which is ordered and unchangeable. Allows duplicate members.
+    Set is a collection which is unordered and unindexed. No duplicate members.
+    Dictionary is a collection which is ordered* and changeable. No duplicate members.

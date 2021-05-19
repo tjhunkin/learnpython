@@ -1,0 +1,13 @@
+access modifiers? private, public and protected
+can't specify types even if you wanted to?
+
+fucking stupid shit
+    boolean first letter needs to be uppercase
+        x = True
+    no braces
+    no multiline comments
+        can be hacked using """
+        a string literal that is not assigned to a variable
+    weird : after an if
+    code blocks via indentation
+        indentation spaces have to be the exact same in a code block as well
