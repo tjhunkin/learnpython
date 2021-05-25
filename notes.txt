@@ -1,3 +1,9 @@
+~ pip
+    pip install camelcase
+    pip uninstall camelcase
+    upgrade: c:\users\user-pc\appdata\local\programs\python\python39\python.exe -m pip install --upgrade pip
+    pip list (list packages)
+
 ~ frameworks
     larger projects
         https://www.djangoproject.com/
