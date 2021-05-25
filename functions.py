@@ -97,3 +97,16 @@ def tri_recursion(k):
 
 print("\n\nRecursion Example Results")
 tri_recursion(2)
+
+
+# scope for nested functions
+def myfunc():
+    x = 300     # The local variable can be accessed from a function within the function:
+
+    def myinnerfunc():
+        print(x)
+
+    myinnerfunc()
+
+
+myfunc()
