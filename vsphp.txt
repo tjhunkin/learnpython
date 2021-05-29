@@ -4,6 +4,7 @@ can't specify types even if you wanted to?
 like
     everything is an object
     sets to remove duplicates
+    lists, tuples, sets and dictionaries
 
 fucking stupid shit
     boolean first letter needs to be uppercase
