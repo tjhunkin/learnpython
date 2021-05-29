@@ -4,6 +4,9 @@
     upgrade: c:\users\user-pc\appdata\local\programs\python\python39\python.exe -m pip install --upgrade pip
     pip list (list packages)
 
+~ install mysql connector
+python -m pip install mysql-connector-python
+
 ~ frameworks
     larger projects
         https://www.djangoproject.com/
